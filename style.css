@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    font-family: ibm plex serif;
+}
+
+h1 {
+    margin: 4px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    line-height: 40px;
+}
+h4 {
+    font-weight: 380;
+}
+body {
+    background-color: lightslategray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96%;
+    margin: 20px;
+}
+
+.everything {
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 75vw;
+}
+
+.littleones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.tallones {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+.shortones {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+
+.little {
+    border-radius: 10px;
+    margin: 13px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    background-color: yellow;
+}
+.two a {
+    color:black;
+}
+.three {
+    background-color: white;
+}
+
+.four {
+    background-color: blue;
+    color: white;
+}
+
+.bigone {
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 13px;
+    width: 40%;
+
+}
+.bigone h1 {
+    font-size: 75px;
+    line-height: 80px;
+}
+h4 {
+    margin: 0;
+}
