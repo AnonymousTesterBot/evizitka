@@ -12,9 +12,19 @@ h1 {
     margin-top: 9px;
     margin-bottom: 9px;
     line-height: 40px;
+    font-size: 35px;
+}
+h3 {
+    margin-top: -5px;
+    margin-bottom: 8px;
+    font-weight: 540;
 }
 h4 {
     font-weight: 380;
+    font-size: 16px;
+}
+.thatone {
+    width: 80%;
 }
 body {
     background-color: lightslategray;
@@ -39,7 +49,7 @@ section {
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    width: 75vw;
+    width: 68vw;
 }
 
 .littleones {
@@ -52,13 +62,13 @@ section {
 .tallones {
     display: flex;
     flex-direction: row;
-    height: 60%;
+    height: 55%;
 }
 
 .shortones {
     display: flex;
     flex-direction: row;
-    height: 40%;
+    height: 45%;
 }
 
 .little {
@@ -103,4 +113,12 @@ section {
 }
 h4 {
     margin: 0;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.whatver {
+    font-weight: 600;
 }
